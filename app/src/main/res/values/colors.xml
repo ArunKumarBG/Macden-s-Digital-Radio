@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dim_grey">#AAAAAA</color>
+    <color name="splash">#8f1317</color>
+    <color name="light_white">#80ffffff</color>
+    <color name="light_grey">#E8E8EE</color>
+    <color name="lighter_grey">#FFFBFF</color>
+    <color name="rt_bg_green">#579017</color>
+    <color name="rt_plain_white">#ffffffff</color>
+    <color name="calender_grey1">#574D4D</color>
+    <color name="rt_black">#000000</color>
+    <color name="rt_light_black">#464651</color>
+    <color name="rt_divider_grey">#999999</color>
+    <color name="rt_grey_2">#e9e9e9</color>
+    <color name="rt_light_grey">#e1e1e1</color>
+    <color name="rt_lightgrey_2">#f6f5f3</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="rt_dialogbg_color"> #ffffff</color>
+    <color name="rt_green">#4CC417</color>
+    <color name="rt_grey_1">#4a4949</color>
+    <color name="rt_dark_yellow">#D9A616</color>
+    <color name="rt_red">#990000</color>
+    <color name="rt_clear_red">#FF0C15</color>
+    <color name="rt_transwhiteactionbar">#ffffff</color>
+    <color name="rt_light_grey6">#ededed</color>
+    <color name="green">#019444</color>
+    <color name="rt_debitred">#e01f26</color>
+    <color name="rt_background_black">#1b1b1b</color>
+    <color name="rt_background_black1">#404040</color>
+    <color name="green_credits">#19a90c</color>
+    <color name="credits_bg1">#fff3d1</color>
+    <color name="rt_credits_lock_grey">#d4d4d4</color>
+    <color name="rt_credits_background">#EA4335</color>
+    <color name="rt_credits_shadow">#fad9d6</color>
+    <color name="rt_transparent">#80000000</color>
+
+    <!-- Bookingsummary screen -->
+    <color name="rt_review_worst">#be1e2d</color>
+    <color name="rt_review_bad">#f26522</color>
+    <color name="rt_review_good">#baab1b</color>
+    <color name="rt_review_better">#2bb673</color>
+    <color name="rt_review_best">#27aae1</color>
+    <color name="rt_notification_bk">#EEF3FA</color>
+    <color name="rt_revieworange">#d17407</color>
+    <color name="rt_comfort_hoteldetails">#CEF1FC</color>
+    <color name="rt_premium_hoteldetails">#FDE5C7</color>
+    <color name="rt_luxury_hoteldetails">#E2D2EA</color>
+    <color name="rt_overlay_grey">#A8ACAE</color>
+    <color name="rt_calendar_grey">#7b7a7a</color>
+    <color name="rt_red_2">#fd0505</color>
+    <color name="rt_red_3">#f74141</color>
+    <color name="rt_transparent_orange">#ffd299</color>
+    <color name="rt_transparent_yellow">#CCffc215</color>
+    <color name="rt_transparent_black">#CC1b1b1b</color>
+    <color name="rt_transparent_black1">#CC070303</color>
+    <color name="rt_transparent_grey">#8C4a4949</color>
+    <color name="rt_black_grey">#2b2b2b</color>
+    <color name="rt_hotellist_font_grey"> #b7b7b7</color>
+    <color name="rt_jet_black">#000000</color>
+    <color name="rt_grey">#7b7b7b</color>
+    <color name="rt_grey1">#afafaf</color>
+    <color name="rt_grey2">#808080</color>
+    <color name="rt_text_black">#000000</color>
+    <color name="rt_banner_bg">#ffc215</color>
+    <color name="rt_yellow">#ffc215</color>
+
+    <!-- HotelList Brand labels NEW RAMESH -->
+    <color name="rt_basic">#ae7e6c</color>
+    <color name="rt_comfort">#00bff3</color>
+    <color name="rt_premium">#ff9000</color>
+    <color name="rt_luxury">#8d5da3</color>
+
+    <!-- Review Brand labels NEW RAMESH -->
+    <color name="rt_rating_basic">#794a39</color>
+    <color name="rt_rating_comfort">#017494</color>
+    <color name="rt_rating_premium">#e65100</color>
+    <color name="rt_rating_luxury">#993399</color>
+
+    <!-- HotelDetailsTab -->
+    <color name="rt_comforttab">#00bff3</color>
+    <color name="rt_premiumtab">#ff9000</color>
+    <color name="rt_luxurytab">#8d5da3</color>
+    <color name="rt_basictab">#ae7e6c</color>
+    <color name="rt_transyellowactionbar">#70ffc215</color>
+
+    <!-- PayU Color -->
+    <color name="blue">#FF1784C7</color>
+
+    <!-- Toniter club -->
+    <color name="tc_green">#FF6CAE23</color>
+    <color name="tc_orange">#FFE99711</color>
+    <color name="tc_blue">#2C416C</color>
+    <color name="tc_toolbarblue">#32497B</color>
+
+    <!-- Dialog Color -->
+    <color name="dialog_text_black">#DE000000</color>
+    <color name="dialog_pressed_false_grey">#FF666666</color>
+    <color name="dialog_pressed_true_grey">#FF000000</color>
+    <color name="bg_genie">#FF6CAE23</color>
+    <color name="text_cashback_color">#009444</color>
+
+    <!-- Calender Color -->
+    <color name="custom_header_text">#6CAE23</color>
+    <color name="custom_selected">#6CAE23</color>
+    <color name="custom_background">#FFFFFF</color>
+    <color name="custom_background_today">#000000</color>
+    <color name="custom_background_disabled">#FFFFFF</color>
+    <color name="custom_text_selected">#FFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    <color name="rt_drak_blue">#FF354C54</color>
+</resources>

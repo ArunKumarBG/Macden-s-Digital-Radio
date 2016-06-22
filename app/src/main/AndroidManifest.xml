@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arunkumarbgcbe.macdensdigitalradio">
+
+
+    <!-- Internet availability -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Wake system from sleepling mode when notificaitno comes -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.arunkumarbgcbe.macdensdigitalradio.util.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:excludeFromRecents="false"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- android:theme="@style/Theme.Transparent" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="false"
+            android:label="Home"
+            android:launchMode="singleTask"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name=".activity.AudioPlayerActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="false"
+            android:label="Audio Player"
+            android:launchMode="singleTask"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="false"
+            android:label="About Us"
+            android:launchMode="singleTask"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible">
+        </activity>
+        <activity
+            android:name=".activity.TrackListActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="false"
+            android:label="Track List"
+            android:launchMode="singleTask"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysVisible" >
+        </activity>
+        <service android:name="com.arunkumarbgcbe.macdensdigitalradio.service.MusicService"></service>
+
+        <service
+            android:name="com.arunkumarbgcbe.macdensdigitalradio.service.SongService"
+            android:exported="true"
+            android:enabled="true"/>
+
+        <receiver android:name="com.arunkumarbgcbe.macdensdigitalradio.receiver.NotificationBroadcast" >
+            <intent-filter>
+                <action android:name="com.arunkumarbgcbe.macdensdigitalradio.delete" />
+                <action android:name="com.arunkumarbgcbe.macdensdigitalradio.pause" />
+                <action android:name="com.arunkumarbgcbe.macdensdigitalradio.next" />
+                <action android:name="com.arunkumarbgcbe.macdensdigitalradio.play" />
+                <action android:name="com.arunkumarbgcbe.macdensdigitalradio.previous" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

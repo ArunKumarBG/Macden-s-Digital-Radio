@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Macden\'s Digital Radio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="network_error">No Internet Connection</string>
+
+    <!-- About Us -->
+    <string name="action_aboutus">About Us</string>
+    <string name="app_version">App Version  : "</string>
+    <string name="aboutus">Our history Starts as early as 1947 When the Late Rev Ernest and Esther Macdens Resigned their respectable Jobs Career to Pursue the Lords leading to launch their ministry 30 miles away from Chennai Selling all their belongings, moved in to Faith ministry and called it Macdens Gospel Work !</string>
+
+    <!-- Home -->
+    <string name="listen_to_be_blessed">Listen to be Blessed</string>
+    <string name="exit_confirmation">Are you sure you want to exit Macden\'s Digital Radio App?</string>
+
+    <!-- TrackList -->
+    <string name="track_details">Track Details</string>
+    <string name="track">Track</string>
+    <string name="tracks">Tracks</string>
+
+    <!-- Json keys -->
+    <string name="key_id">id</string>
+    <string name="key_title">title</string>
+    <string name="key_user_id">user_id</string>
+    <string name="key_label_name">label_name</string>
+    <string name="key_genre">genre</string>
+    <string name="key_description">description</string>
+    <string name="key_downloadable">downloadable</string>
+    <string name="key_streamable">streamable</string>
+    <string name="key_tag_list">tag_list</string>
+    <string name="key_duration">duration</string>
+    <string name="key_created_at">created_at</string>
+    <string name="key_permalink_url">permalink_url</string>
+    <string name="key_artwork_url">artwork_url</string>
+    <string name="key_stream_url">stream_url</string>
+    <string name="key_download_url">download_url</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+   <!-- Play Controls -->
+    <string name="back">Back</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="player">Audio Player</string>
+    <string name="next">Next</string>
+    <string name="open_playlist">Open Playlist</string>
+    <string name="idle">Idle</string>
+    <string name="empty_text">Select song from below to play</string>
+    <string name="player_button">Album Art Screen</string>
+</resources>
